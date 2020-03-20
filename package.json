@@ -30,10 +30,6 @@
         "postcss-preset-env": "^6.7.0"
     },
     "dependencies": {
-        "bootstrap": "^4.3.1",
-        "jquery": "^3.4.1",
-        "mini-css-extract-plugin": "^0.8.0",
-        "popper.js": "^1.15.0",
         "react": "^16.8.4",
         "react-dom": "^16.8.4",
         "react-router-dom": "^5.0.0",

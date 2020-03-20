@@ -7,16 +7,10 @@ class App extends React.Component<{}> {
     render() {
         return (
             <div>
-            <div className="container">
-                <div className="jumbotron">Welcome</div>
-            </div>
+            <h1>Welcome</h1>>
             <Router>
-                <div className="container">
-                    <div className="row-12">
-                        <Route exact path="/" component={HomePage} />
-                        {/* <Route path="/login" component={LoginPage} /> */}
-                    </div>
-                </div>
+                <Route exact path="/" component={HomePage} />
+                {/* <Route path="/login" component={LoginPage} /> */}
             </Router>
             </div>
         );
