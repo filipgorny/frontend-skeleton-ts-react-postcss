@@ -7,7 +7,7 @@ class App extends React.Component<{}> {
     render() {
         return (
             <div>
-            <h1>Welcome</h1>>
+            <h1>Welcome</h1>
             <Router>
                 <Route exact path="/" component={HomePage} />
                 {/* <Route path="/login" component={LoginPage} /> */}
